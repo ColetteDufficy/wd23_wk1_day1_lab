@@ -1,8 +1,7 @@
 
-input = ("What are you studying today? ")
-answer = "Codeclan"
+answer = input("What are you studying today? ")
 
-if answer == "Codeclan":
+if answer.lower() == "Codeclan":
     print("Hurrah, thats great")
 else:
     print("Why not?!")
